@@ -1,0 +1,7 @@
+---
+# vars file for img
+img_platform: '{{ img_os }}-{{ img_arch }}'
+img_url: '{{ img_mirror }}/{{ img_ver }}/img-{{ img_platform }}'
+img_checksum: '{{ img_checksums[img_ver][img_platform] }}'
+img_ver_exe: '{{ img_install_dir }}/img-{{ img_ver }}'
+img_link: '{{ img_install_dir }}/img'
