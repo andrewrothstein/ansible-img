@@ -1,6 +1,6 @@
 ---
 # defaults file for img
-img_ver: v0.5.7
+img_ver: v0.5.11
 img_os: linux
 img_arch: amd64
 img_mirror: https://github.com/genuinetools/img/releases/download
@@ -10,3 +10,6 @@ img_checksums:
   v0.5.7:
     # https://github.com/genuinetools/img/releases/download/v0.5.7/img-linux-amd64.sha256
     linux-amd64: sha256:41aa98ab28be55ba3d383cb4e8f86dceac6d6e92102ee4410a6b43514f4da1fa
+  v0.5.11:
+    # https://github.com/genuinetools/img/releases/download/v0.5.11/img-linux-amd64.sha256
+    linux-amd64: sha256:cc9bf08794353ef57b400d32cd1065765253166b0a09fba360d927cfbd158088

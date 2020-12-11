@@ -1,5 +1,5 @@
 ---
-- name: download
+- name: downloading {{ img_url }} to {{ img_ver_exe }}
   become: yes
   become_user: root
   get_url:
@@ -7,7 +7,7 @@
     dest: '{{ img_ver_exe }}'
     checksum: '{{ img_checksum }}'
     mode: 0755
-- name: link
+- name: linking {{ img_link }} to {{ img_ver_exe }}
   become: yes
   become_user: root
   file:
